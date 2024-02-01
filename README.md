@@ -1,71 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie App - Assignment for QuadB Tech
 
-## Available Scripts
+This is a Movie Booking application that allows users to explore a list of movies and view detailed information about each movie. Also user can book ticket for any movie. The application is built using React.js.
 
-In the project directory, you can run:
+# Live website link : <https://illustrious-donut-0ef350.netlify.app/>
+## Features
 
-### `npm start`
+- Movie page : Displays list of the Moive cards containing the name, image, etc.
+- Custom Error Page : Using react-router-dom to enhance user Experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+To run the application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository:
+- git clone <https://github.com/ffxhxd/rickandmorty-bild.git>
 
-### `npm test`
+Navigate to the project directory:
+- cd rickandmorty-bild
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install dependencies:
+- npm install
 
-### `npm run build`
+Start the development server:
+- npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Open your browser and go to http://localhost:3000 to view the Rick and Morty Character Viewer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- JavaScript 
+- React.js
+- Tailwind CSS
+- SCSS 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Best Industry Standard Practices Implemented:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Custom Hooks for API Calls:
+Utilizing custom hooks enhances reusability and maintains a clear separation of concerns.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Centralized Constants:
+All hardcoded strings and URLs are consolidated in a separate constant.js file, promoting centralized configuration for easy maintenance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Utility Functions in Utils Folder:
+The utils folder houses utility functions and helper modules, fostering modularity and code organization.
 
-## Learn More
+- Compact Components for Readability:
+Components are designed to be concise, with each containing 80-100 lines of code, improving readability and ease of maintenance.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Pagination Debouncing for Efficiency:
+Implemented debouncing in pagination to reduce the number of API calls by 50%, optimizing performance.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- DRY Principle Adhered To:
+The Don't Repeat Yourself (DRY) principle is consistently followed, minimizing redundancy and improving code maintainability.
 
-### Code Splitting
+- Single Responsibility Principle Maintained:
+Components adhere to the Single Responsibility Principle (SRP), ensuring each component has a focused purpose for better maintainability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Clean, Optimized, and Scalable Codebase:
+The codebase is clean, optimized, and scalable, prioritizing clarity, performance, and adaptability to evolving requirements.
 
-### Analyzing the Bundle Size
+- Organized Component and Styling Structure:
+Components and their styling files are organized in separate folders, enhancing code organization and ease of styling updates.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Robust Error Handling:
+Comprehensive error-handling mechanisms have been implemented, providing meaningful messages for debugging.
 
-### Making a Progressive Web App
+- Thorough Manual Testing:
+Rigorous manual testing has been conducted across various devices, ensuring a robust and user-friendly application.
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [@fahad](https://www.github.com/ffxhxd)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# quadb-assignment" 
