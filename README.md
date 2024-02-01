@@ -3,7 +3,7 @@
 
 This is a Movie Booking application that allows users to explore a list of movies and view detailed information about each movie. Also user can book ticket for any movie. The application is built using React.js.
 
-# Live website link : <https://illustrious-donut-0ef350.netlify.app/>
+# Live website link : <https://65bb628ebe2f255af84060f7--luxury-wisp-9bfd8e.netlify.app/>
 ## Features
 
 - Movie page : Displays list of the Moive cards containing the name, image, etc.
@@ -13,10 +13,11 @@ This is a Movie Booking application that allows users to explore a list of movie
 To run the application locally, follow these steps:
 
 Clone the repository:
-- git clone <https://github.com/ffxhxd/rickandmorty-bild.git>
+
+- git clone <https://github.com/ffxhxd/quadb-assignment>
 
 Navigate to the project directory:
-- cd rickandmorty-bild
+- cd quadb-assignment
 
 Install dependencies:
 - npm install
@@ -24,7 +25,7 @@ Install dependencies:
 Start the development server:
 - npm start
 
-- Open your browser and go to http://localhost:3000 to view the Rick and Morty Character Viewer.
+- Open your browser and go to http://localhost:3000 to view the Movie App.
 
 
 ## Technologies Used
@@ -32,7 +33,6 @@ Start the development server:
 - JavaScript 
 - React.js
 - Tailwind CSS
-- SCSS 
 
 # Best Industry Standard Practices Implemented:
 
@@ -47,9 +47,6 @@ The utils folder houses utility functions and helper modules, fostering modulari
 
 - Compact Components for Readability:
 Components are designed to be concise, with each containing 80-100 lines of code, improving readability and ease of maintenance.
-
-- Pagination Debouncing for Efficiency:
-Implemented debouncing in pagination to reduce the number of API calls by 50%, optimizing performance.
 
 - DRY Principle Adhered To:
 The Don't Repeat Yourself (DRY) principle is consistently followed, minimizing redundancy and improving code maintainability.
@@ -71,4 +68,6 @@ Rigorous manual testing has been conducted across various devices, ensuring a ro
 ## Authors
 
 - [@fahad](https://www.github.com/ffxhxd)
+
+- Made with ❤️ for QuadB Tech
 
