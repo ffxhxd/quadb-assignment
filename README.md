@@ -3,7 +3,7 @@
 
 This is a Movie Booking application that allows users to explore a list of movies and view detailed information about each movie. Also user can book ticket for any movie. The application is built using React.js.
 
-# Live website link : <https://65bb628ebe2f255af84060f7--luxury-wisp-9bfd8e.netlify.app/>
+# Live website link : <https://65bb66b5e18bb459812ac606--splendid-nougat-4f67e4.netlify.app/>
 ## Features
 
 - Movie page : Displays list of the Moive cards containing the name, image, etc.
